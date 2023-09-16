@@ -39,7 +39,7 @@ El script esta realizado en bash script y se ejecuta desde la linea de comandos 
 ## Metodo de instalacion 1 con WGET
 
 ```shell
-sudo wget https://raw.githubusercontent.com/proyectopy/PySHConfig/main/instalar
+clear && sudo wget https://raw.githubusercontent.com/proyectopy/PySHConfig/main/instalar &>/dev/null
 sudo chmod +x instalar
 ./instalar
 ```
@@ -47,9 +47,9 @@ sudo chmod +x instalar
 # curl installation
 
 ```shell
-curl -L https://github.com/proyectopy/PySHConfig/archive/main.zip -o PySHConfig.zip
-unzip PySHConfig.zip && rm PySHConfig.zip /dev/null 2>&1
-sudo mv PySHConfig-main PySHConfig && cd PySHConfig && bash instalar
+curl -L https://github.com/proyectopy/PySHConfig/archive/main.zip -o PySHConfig.zip &>/dev/null
+unzip PySHConfig.zip &>/dev/null && sudo rm PySHConfig.zip 
+sudo mv PySHConfig-main /PySHConfig && cd /PySHConfig && bash instalar
 ```
   
 
