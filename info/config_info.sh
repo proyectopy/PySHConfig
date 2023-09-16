@@ -21,7 +21,7 @@ source /home/pi/MiSimple/scripts/funciones
 ###################################################
 # OBTENER MENSAJE INFORMACION
 ###################################################
-config_info,sh(){
+config_info.sh(){
     msg_info
     echo -e "
         Al elegir esta opción se va a proceder a:
