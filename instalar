@@ -339,6 +339,7 @@ function uninstall_apps() {
         sudo apt-get purge jq -y &>/dev/null
         des_ok
         cursor_on
+        continue_install
         else
         sleep 3
         continue_install
