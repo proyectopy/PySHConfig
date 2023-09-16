@@ -44,7 +44,7 @@ sudo chmod +x instalar
 ./instalar
 ```
 
-# curl installation
+## Metodo de instalacion 1 con CURL
 
 ```shell
 curl -L https://github.com/proyectopy/PySHConfig/archive/main.zip -o PySHConfig.zip &>/dev/null
