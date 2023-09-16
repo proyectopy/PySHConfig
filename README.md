@@ -49,9 +49,7 @@ sudo chmod +x instalar
 ```shell
 curl -L https://github.com/proyectopy/PySHConfig/archive/main.zip -o PySHConfig.zip &>/dev/null
 unzip PySHConfig.zip &>/dev/null && sudo rm PySHConfig.zip 
-sudo mv PySHConfig-main /PySHConfig && cd /PySHConfig && bash instalar
+sudo mv PySHConfig-main /PySHConfig && cd /PySHConfig && bash instalar</font>
 ```
-  
 
-
-# ....Continuará</font>
+# ....Continuará
