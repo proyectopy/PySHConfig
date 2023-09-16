@@ -43,7 +43,7 @@ case $opcion in
 
     # Performs the function with the name of the variable passed
     0) clear; exit;;
-    1) clear; config_info,.sh; sleep 6; upgrade.sh; pikey.sh; rootkey.sh; timezone.sh; timezone.sh; expandir.sh; lared.sh; ready;;
+    1) clear; config_info.sh; sleep 6; upgrade.sh; pikey.sh; rootkey.sh; timezone.sh; timezone.sh; expandir.sh; lared.sh; ready;;
     #1) clear; config_info,sh; sleep 6; ready;;
     #2) upgrade.sh; curl.sh; git.sh; node.sh; chromium.sh; docker.sh; vscode.sh; ready;;
     2) sudo chmod +x apps.sh ; source apps.sh;;
