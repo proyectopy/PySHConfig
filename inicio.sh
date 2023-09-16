@@ -12,11 +12,11 @@
 ########################################################################
 # SCRIPS NECESARIOS
 ########################################################################
-. imports/scripts_imp.sh
-. inport/info_imp.sh
-. import/sist_imp.sh
-. import/serv_imp.sh
 . import/app_imp.sh
+. inport/info_imp.sh
+. imports/scripts_imp.sh
+. import/serv_imp.sh
+. import/sist_imp.sh
 ########################################################################
 ########################################################################
 # VARIABLES USADAS EN ESTE SCRIPT

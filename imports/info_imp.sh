@@ -5,5 +5,5 @@
 #
 
 
-. info/config_info,sh
+. info/config_info.sh
     
