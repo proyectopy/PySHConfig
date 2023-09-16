@@ -307,12 +307,10 @@ function clone_repo() {
     fi
     cursor_off
     descargando
-    git clone https://github.com/proyectopy/WSHConfig.git $DIRECTCLONAR &>/dev/null
+    git clone https://github.com/proyectopy/PySHConfig.git $DIRECTCLONAR &>/dev/null
     sleep 2 
     descargado
     sleep 2
-    directorio
-    sleep 4
     cursor_on
     sudo rm /home/pi/instalar
 }
