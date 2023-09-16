@@ -17,31 +17,7 @@ source /home/pi/MiSimple/scripts/funciones
 ########################################################################
 # VARIABLES USADAS EN ESTE SCRIPT
 ########################################################################
-function logWarn() {
-	START='\033[01;33m'
-	END='\033[00;00m'
-	MESSAGE=${@:-""}
-	echo -e "${START}${MESSAGE}${END}"
-}
 
-function logInfo() {
-	START='\033[01;32m'
-	END='\033[00;00m'
-	MESSAGE=${@:-""}
-	echo -e "${START}${MESSAGE}${END}"
-}
-
-function logError() {
-	START='\033[01;31m'
-	END='\033[00;00m'
-	MESSAGE=${@:-""}
-	echo -e "${START}${MESSAGE}${END}"
-}
-
-function log() {
-        MESSAGE=${@:-""}
-        echo -e "${MESSAGE}"
-}
 ###################################################
 # OBTENER MENSAJE INFORMACION
 ###################################################

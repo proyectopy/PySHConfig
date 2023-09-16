@@ -66,6 +66,34 @@ centrar() {
     return 0
 }
 ########################################################################
+# FUNCIONES TEXTOS INFO
+########################################################################
+function logWarn() {
+	START='\033[01;33m'
+	END='\033[00;00m'
+	MESSAGE=${@:-""}
+	echo -e "${START}${MESSAGE}${END}"
+}
+
+function logInfo() {
+	START='\033[01;32m'
+	END='\033[00;00m'
+	MESSAGE=${@:-""}
+	echo -e "${START}${MESSAGE}${END}"
+}
+
+function logError() {
+	START='\033[01;31m'
+	END='\033[00;00m'
+	MESSAGE=${@:-""}
+	echo -e "${START}${MESSAGE}${END}"
+}
+
+function log() {
+        MESSAGE=${@:-""}
+        echo -e "${MESSAGE}"
+}
+########################################################################
 # FUNCIONES ASPECTO
 ########################################################################
 cursor_off() {
